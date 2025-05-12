@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
-    <script>
-        var redirectUrl = "https://youtube.com/@louisgantus"; // Change this when needed
-        window.location.href = redirectUrl;
-    </script>
+  <meta charset="UTF-8">
+  <title>Private Link Tree</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      padding: 50px;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 40px;
+    }
+    .button {
+      display: block;
+      width: 250px;
+      margin: 10px auto;
+      padding: 15px;
+      font-size: 16px;
+      background-color: #ff4444; /* more saturated red */
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #ff2222; /* more saturated hover red */
+    }
+  </style>
 </head>
 <body>
-    <p>If you are not redirected automatically, <a id="redirect-link" href="#">click here</a>.</p>
-    <script>
-        document.getElementById("redirect-link").href = redirectUrl;
-    </script>
+
+  <h1>Private Link Tree</h1>
+
+  <a href="https://www.youtube.com/@LouisGantus" target="_blank" class="button">Louis Gantus</a>
+  <a href="https://www.youtube.com/@EYstreem" target="_blank" class="button">EYstreem</a>
+  <a href="https://www.youtube.com/@EuphoricBrothers" target="_blank" class="button">Euphoric Brothers</a>
+  <a href="https://www.youtube.com/@Dakblake" target="_blank" class="button">Dakblake</a>
+  <a href="https://www.youtube.com/@MarkRober" target="_blank" class="button">Mark Rober</a>
+
 </body>
 </html>
