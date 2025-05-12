@@ -3,32 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <title>Private Link Tree</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
       background-color: #f4f4f4;
-      padding: 50px;
+      padding: 20px;
+      margin: 0;
     }
+
     h1 {
       color: #333;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
+      font-size: 1.8em;
     }
+
     .button {
       display: block;
-      width: 250px;
-      margin: 10px auto;
-      padding: 15px;
-      font-size: 16px;
+      width: 90%;
+      max-width: 300px;
+      margin: 12px auto;
+      padding: 15px 20px;
+      font-size: 1rem;
       background-color: #ff4444; /* more saturated red */
       color: white;
       border: none;
       border-radius: 8px;
       text-decoration: none;
-      transition: background-color 0.3s;
+      transition: background-color 0.3s, transform 0.2s;
     }
+
     .button:hover {
-      background-color: #ff2222; /* more saturated hover red */
+      background-color: #ff2222;
+      transform: scale(1.03);
+    }
+
+    @media (min-width: 600px) {
+      h1 {
+        font-size: 2.2em;
+      }
+
+      .button {
+        font-size: 1.1rem;
+      }
     }
   </style>
 </head>
